@@ -17,7 +17,7 @@ The script fetches data from a specified URL (like a raw Pastebin link). If the 
 
 3. **Implement it into ur main program**:
    - Put the script at the topmost line so that it executes first before anything else does.
-   - Nuitka is recommended for compilation of the sript since the killswitch could be bypassed if done by pyinstaller.
+   - Nuitka is recommended for compilation of the script since the killswitch could be bypassed if done by pyinstaller.
    - Even if compiled with Nuitka it can be bypassed but most basic user wont be able to do that.
 
 4. **Run the Script**:
